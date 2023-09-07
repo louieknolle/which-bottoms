@@ -16,7 +16,7 @@ export const unstable_settings = {
   initialRouteName: '(tabs)',
 }
 
-export default function RootLayout() {
+export function RootLayout() {
   const [loaded, error] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     ...FontAwesome.font,
